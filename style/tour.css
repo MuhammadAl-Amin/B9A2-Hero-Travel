@@ -1,0 +1,148 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Mulish:wght@400;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90rem;
+    margin: auto;
+}
+
+
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title img{
+    width: 3rem;
+    height: 3.5005rem;
+}
+
+.nav-title p{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 1.04rem;
+}
+
+.nav-title p span{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-link p{
+    display: none;
+}
+.nav-link ul{
+    display: flex;
+    padding: 0.625rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+}
+
+.nav-link ul li{
+    list-style: none;
+    color:#424247;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.nav-link .home{
+    color: #FF5400;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.when{
+    background-color: white;
+    padding: 2rem 10rem;
+}
+
+.banner-container{
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.input-field {
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: .5rem .5rem .5rem lightgray;
+    
+}
+
+.input-field .address{
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #ffffff;
+}
+
+.input-field .address p {
+    margin-left: .5rem;
+}
+.input-field .selection{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: .5rem;
+    width: 10.875rem;
+    height: 3.25rem;
+}
+
+.input-field .selection p{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.input-field .search{
+    display: flex;
+    justify-content: center;
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+}
+
+
+
+
+
+/* For Mobile Phone */
+
+@media screen and (max-width: 600px) {
+
+    nav{
+        width: 100%;
+    }
+
+
+    .nav-link ul{
+        display: none;
+    }
+
+
+    .nav-link p{
+        display: initial;
+
+    }
+
+
+}
