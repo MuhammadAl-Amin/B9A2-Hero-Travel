@@ -464,6 +464,71 @@ section-2
     font-weight: 800;
 }
 
+.discount-container p{
+    text-align: center;
+}
+
+.discount-container button{
+    width: 13.125rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}
+
+
+/* section-5 enjoyment------------------------ */
+
+.enjoyment-container{
+    width: 73.125rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.enjoyment h1{
+    color: #131318;
+    width: 28rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.75rem;
+}
+
+.enjoyment p{
+    width: 33.25rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.enjoyment li{
+    width: 32.375rem;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.enjoyment button{
+    width: 10.875rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.enjoyment-container .video{
+    width: 38.125rem;
+    height: 26.5rem;
+}
+
 
 
 /* ----------------------------------------------------------- */
@@ -621,7 +686,7 @@ section-2
         width: 75%;
     }
 
-    
+
     .discount-info1 h2{
         width: 75%;
     }
@@ -645,4 +710,31 @@ section-2
         margin: 0;
     }
 
+    /* section-5 enjoyment------------- */
+
+    .enjoyment-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoyment h1{
+        width: 100%;
+    }
+    
+    .enjoyment p{
+        width: 100%;
+    }
+    
+    .enjoyment li{
+        width: 100%;
+    }
+    
+    .enjoyment-container .video{
+        width: 100%;
+    }
+
+    .video iframe{
+        width: 100%;
+    }
 }
