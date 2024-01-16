@@ -537,6 +537,7 @@ section-2
     justify-content: space-around;
     width: 73.125rem;
     margin: auto;
+    margin-bottom: 7rem;
 }
 
 .registration{
@@ -617,6 +618,49 @@ section-2
     font-weight: 800;
     margin: 0;
 }
+
+/* footer--------------------------------- */
+
+footer{
+    width: 90rem;
+    height: 31.375rem;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    margin: auto;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title img{
+    width: 3rem;
+    height: 3.5005rem;
+}
+
+.footer-title p{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 1.04rem;
+}
+
+.footer-title p span{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.footer-icon{
+    margin-bottom: 6rem;
+}
+
+footer hr{
+    width: 75%;
+}
+
 
 
 
@@ -845,7 +889,6 @@ section-2
         
     }
     
-    
     .offer-tool{
         position: relative;
         width: 75%;
@@ -853,4 +896,11 @@ section-2
         left: 5rem;
         
     }
+
+    /* footer------------------- */
+
+    footer{
+        width: 100%;
+    }
+
 }
