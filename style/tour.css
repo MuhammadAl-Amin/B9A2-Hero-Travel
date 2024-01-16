@@ -347,7 +347,7 @@ section-2
 /* section-4 Discount---------------------- */
 
 .discount1{
-    background-image: url(/Images/Group\ 39.png);
+    background-image: url(../Images/Group\ 39.png);
     background-repeat: no-repeat;
     width: 73.125rem;
     height: 31.25rem;
@@ -355,7 +355,7 @@ section-2
     margin-bottom: 3rem;
 }
 .discount2{
-        background-image: url(/Images/Group\ 39.png);
+        background-image: url(../Images/Group\ 39.png);
         background-repeat: no-repeat;
         transform: scaleX(-1);
         width: 73.125rem;
@@ -488,6 +488,7 @@ section-2
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    margin-bottom: 4rem;
 }
 
 .enjoyment h1{
@@ -527,6 +528,94 @@ section-2
 .enjoyment-container .video{
     width: 38.125rem;
     height: 26.5rem;
+}
+
+/* section-6 registration------------ --------------------------*/
+
+.registration-container{
+    display: flex;
+    justify-content: space-around;
+    width: 73.125rem;
+    margin: auto;
+}
+
+.registration{
+    width: 29.625rem;
+    height: 26.375rem;
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    background: #ffffff;
+    text-align: center;
+}
+
+.registration h1{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.registration p{
+    width: 21.875rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem
+}
+
+.registration hr{
+    width: 90%;
+}
+
+.registration input{
+    width: 24.5625rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+}
+
+.registration .submit{
+    width: 24.5625rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+}
+
+.offer{
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 42rem;
+    height: 26.375rem;
+}
+
+
+.offer-tool{
+    width: 20.25rem;
+    height: 7.5rem;
+    transform: rotate(-19.628deg);
+    border-radius: 1rem;
+    background: #FF5400;
+    position: relative;
+    top: 14rem;
+    left: 21rem;
+    
+}
+
+.offer-tool h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.offer-tool h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
 }
 
 
@@ -736,5 +825,32 @@ section-2
 
     .video iframe{
         width: 100%;
+    }
+
+    /* section-6 registration--------------- */
+
+    .registration-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .registration{
+        width: 100%;
+    }
+
+    .offer{
+        /* display: initial; */
+        width: 100%;
+        
+    }
+    
+    
+    .offer-tool{
+        position: relative;
+        width: 75%;
+        top: 14rem;
+        left: 5rem;
+        
     }
 }
