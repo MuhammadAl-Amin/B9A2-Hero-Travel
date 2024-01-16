@@ -209,14 +209,6 @@ nav {
 
 
 /* Own section----------------------- */
-    .own-section-container{
-        width: 73.125rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto;
-    }
-
 
     .own-section h1{
         color: #131318;
@@ -759,23 +751,8 @@ footer hr{
         width: 100%;
     }
 
-
-    /* * Own section----------------------- */ */
-    .own-section-container{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .own-section h1{
-        width: 100%;
-    }
-
-    /* .own-section img{
-        width: 33.75rem;
-        height: 34.375rem;
-    } */
-
+    /* own section------------- */
+    
     /* Main section-2--------------------- */
 
     .gallery-container{
