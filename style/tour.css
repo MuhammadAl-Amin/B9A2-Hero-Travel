@@ -207,6 +207,29 @@ nav {
     margin-left: 2rem;
 }
 
+
+/* Own section----------------------- */
+    .own-section-container{
+        width: 73.125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+
+    .own-section h1{
+        color: #131318;
+        align-items: center;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .own-section img{
+        width: 33.75rem;
+        height: 34.375rem;
+    }
+
 /* ------------------------------------------
 section-2
 ------------------------------------------ */
@@ -735,6 +758,23 @@ footer hr{
     .tour-pic img{
         width: 100%;
     }
+
+
+    /* * Own section----------------------- */ */
+    .own-section-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .own-section h1{
+        width: 100%;
+    }
+
+    /* .own-section img{
+        width: 33.75rem;
+        height: 34.375rem;
+    } */
 
     /* Main section-2--------------------- */
 
