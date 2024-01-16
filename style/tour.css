@@ -235,7 +235,7 @@ section-2
     margin: auto;
 }
 
-.main-gallery .maldive h1{
+.main-gallery .maldive span{
     color: white;
     width: 25%;
     font-size: 1.75rem;
@@ -250,7 +250,7 @@ section-2
     justify-content: space-around;
 }
 
-.main-gallery .sri-lanka h1{
+.main-gallery .sri-lanka span{
     color: white;
     width: 25%;
     font-size: 1.75rem;
@@ -264,9 +264,11 @@ section-2
     display:flex;
     justify-content: space-between;
     align-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.main-gallery .Bangladesh h1{
+.main-gallery .Bangladesh span{
     color: white;
     width: 25%;
     font-size: 1.75rem;
@@ -274,10 +276,71 @@ section-2
     position: relative;
     top: 12rem;
     left: 8rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .bangladesh-Mymensingh{
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* section-3------------------- */
+
+.service{
+    display: flex;
+    justify-content: center;
+}
+
+.service-description h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.service-description p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    width: 50%;
+    margin: auto;
+}
+
+.service-details{
+    width: 35.8125rem;
+    height: 17.75rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.service-details img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.service-details h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.service-details p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.service-price{
+    width: 50%;
+    margin: auto;
 }
 
 
@@ -382,5 +445,26 @@ section-2
     .bangladesh-Mymensingh{
         display: flex;
         flex-direction: column;
+    }
+
+    /* section-3--------------------- */
+
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-details{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .service-details p{
+        width: 100%;
+    }
+
+    .service-price{
+        width: 100%;
     }
 }
