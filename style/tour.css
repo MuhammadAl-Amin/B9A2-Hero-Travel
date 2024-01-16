@@ -344,6 +344,96 @@ section-2
 }
 
 
+/* section-4 Discount---------------------- */
+
+.discount1{
+    background-image: url(/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width: 73.125rem;
+    height: 31.25rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.discount2{
+        background-image: url(/Images/Group\ 39.png);
+        background-repeat: no-repeat;
+        transform: scaleX(-1);
+        width: 73.125rem;
+        height: 31.25rem;
+        margin: auto;
+}
+.discount-info1{
+    width: 30.1875rem;
+    height: 20.3125rem;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3rem;
+    padding-bottom: 1rem;
+    position: relative;
+    left: 33rem;
+    top: 5rem;
+}
+
+.discount-info2{
+    width: 30.1875rem;
+    height: 20.3125rem;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3rem;
+    padding-bottom: 1rem;
+    position: relative;
+    left: 33rem;
+    top: 5rem;
+    transform: scaleX(-1);
+}
+
+.discount-period{
+    display: flex;
+}
+
+
+.discount-period p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.discount-info h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.discount-info p{
+    width: 28.25rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.discount-info h3{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.discount-info button{
+    width: 9.375rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+
 
 /* ----------------------------------------------------------- */
 /* For Mobile Phone {Media query}*/
@@ -467,4 +557,50 @@ section-2
     .service-price{
         width: 100%;
     }
+
+    /* section-4 discount------------------- */
+
+    .discount1{
+        width: 100%;
+    }
+    .discount2{
+        width: 100%;
+    }
+    .discount-info1{
+        width: 18.9375rem;
+        height: 22.5625rem;
+        position: relative;
+        left: .3rem;
+        bottom: 5rem;
+    }
+
+    .discount-info2{
+        width: 18.9375rem;
+        height: 22.5625rem;
+        position: relative;
+        left: .3rem;
+        bottom: 5rem;
+    }
+
+    .discount-info p{
+        width: 75%;
+    }
+
+    .discount-info h2{
+        width: 75%;
+    }
+
+    .discount-info h3{
+        width: 75%;
+    }
+
+    .discount-period{
+        width: 100%;
+    }
+
+    .discount-period p{
+        width: 100%;
+        margin: 0;
+    }
+
 }
