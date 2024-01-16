@@ -361,6 +361,7 @@ section-2
         width: 73.125rem;
         height: 31.25rem;
         margin: auto;
+        margin-bottom: 3rem;
 }
 .discount-info1{
     width: 30.1875rem;
@@ -403,13 +404,19 @@ section-2
 
 }
 
-.discount-info h2{
+.discount-info1 h2{
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.discount-info p{
+.discount-info2 h2{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.discount-info1 p{
     width: 28.25rem;
     color: #5A5A5D;
     font-size: 1rem;
@@ -417,13 +424,37 @@ section-2
     line-height: 1.625rem;
 }
 
-.discount-info h3{
+.discount-info2 p{
+    width: 28.25rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.discount-info1 h3{
     color: #FF5400;
     font-size: 1.25rem;
     font-weight: 800;
 }
 
-.discount-info button{
+.discount-info2 h3{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.discount-info1 button{
+    width: 9.375rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.discount-info2 button{
     width: 9.375rem;
     height: 3.25rem;
     border-radius: 0.5rem;
@@ -582,18 +613,29 @@ section-2
         bottom: 5rem;
     }
 
-    .discount-info p{
+    .discount-info1 p{
         width: 75%;
     }
 
-    .discount-info h2{
+    .discount-info2 p{
         width: 75%;
     }
 
-    .discount-info h3{
+    
+    .discount-info1 h2{
         width: 75%;
     }
 
+    .discount-info2 h2{
+        width: 75%;
+    }
+
+    .discount-info1 h3{
+        width: 75%;
+    }
+    .discount-info2 h3{
+        width: 75%;
+    }
     .discount-period{
         width: 100%;
     }
