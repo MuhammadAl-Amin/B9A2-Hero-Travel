@@ -169,6 +169,7 @@ nav {
     align-items: center;
     justify-items: center;
     margin: auto;
+    margin-bottom: 10rem;
 }
 .tour-info h2{
     color: #131318;
@@ -206,10 +207,83 @@ nav {
     margin-left: 2rem;
 }
 
+/* ------------------------------------------
+section-2
+------------------------------------------ */
+.gallery-container{
+    width: 73.125rem;
+    margin: auto;
+}
+.gallery-description{
+    width: 73.125rem;
+    margin: auto;
+}
+.gallery-description h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.gallery-description p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: auto;
+}
+
+.main-gallery .maldive h1{
+    color: white;
+    width: 25%;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    top: 13rem;
+    left: 15rem;
+}
+
+.maldive-indonesia{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-gallery .sri-lanka h1{
+    color: white;
+    width: 25%;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    top: 12rem;
+    left: 8rem;
+}
+
+.sri-lanka-america-kashmir{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.main-gallery .Bangladesh h1{
+    color: white;
+    width: 25%;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    top: 12rem;
+    left: 8rem;
+}
+
+.bangladesh-Mymensingh{
+    display: flex;
+}
+
 
 
 /* ----------------------------------------------------------- */
-/* For Mobile Phone */
+/* For Mobile Phone {Media query}*/
 /* ----------------------------------------------------------- */
 
 @media screen and (max-width: 600px) {
@@ -278,5 +352,35 @@ nav {
     }
     .tour-pic img{
         width: 100%;
+    }
+
+    /* Main section-2--------------------- */
+
+    .gallery-container{
+        width: 100%;
+    }
+
+    .gallery-description{
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-gallery img{
+        width: 100%;
+    }
+
+    .maldive-indonesia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sri-lanka-america-kashmir{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bangladesh-Mymensingh{
+        display: flex;
+        flex-direction: column;
     }
 }
