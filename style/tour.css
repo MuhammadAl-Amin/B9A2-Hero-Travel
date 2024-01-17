@@ -213,10 +213,12 @@ nav {
     width: 73.125rem;
     margin: auto;
 }
+
 .gallery-description{
     width: 73.125rem;
     margin: auto;
 }
+
 .gallery-description h1{
     color: #131318;
     text-align: center;
@@ -240,13 +242,13 @@ nav {
     font-size: 1.75rem;
     font-weight: 800;
     position: relative;
-    top: 13rem;
-    left: 15rem;
+    top: 10rem;
+    left: 10rem;
 }
 
 .maldive-indonesia{
     display: flex;
-    justify-content: space-around;
+    gap: .5rem;
 }
 
 .main-gallery .sri-lanka span{
@@ -261,7 +263,8 @@ nav {
 
 .sri-lanka-america-kashmir{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 1rem;
     align-content: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -273,13 +276,13 @@ nav {
     font-size: 1.75rem;
     font-weight: 800;
     position: relative;
-    top: 12rem;
+    top: 8rem;
     left: 8rem;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.bangladesh-Mymensingh{
+.bangladesh-Mymensingh {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
@@ -766,21 +769,6 @@ footer hr{
         width: 100%;
     }
 
-    /* ------------------------------------------------own section. This is extra section-------------------------- */
-
-    .own-section-container{
-        width: 100%;
-    }
-    .own-section{
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
-        display: flex;
-        flex-direction: column;
-    }
-
-    .own-section-container h1{
-        width: 100%;
-    }
     
     /* -------------------------------------------------Main section-2 ---------------------------------------------- */
 
@@ -837,9 +825,11 @@ footer hr{
 
     .discount1{
         width: 100%;
+        margin: auto;
     }
     .discount2{
         width: 100%;
+        margin: auto;
     }
     .discount-info1{
         width: 18.9375rem;
@@ -923,14 +913,16 @@ footer hr{
         display: flex;
         flex-direction: column;
         width: 100%;
+        
     }
 
     .registration{
         width: 100%;
+        margin-bottom: 1rem;
     }
 
     .offer{
-        /* display: initial; */
+
         width: 100%;
         
     }
@@ -942,6 +934,29 @@ footer hr{
         left: 5rem;
         
     }
+
+
+    /* ------------------------------------------------own section. This is extra section-------------------------- */
+
+       .own-section-container{
+        width: 100%;
+    }
+    .own-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .own-section img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .own-section-container h1{
+        width: 100%;
+    }
+
+
+    
 
     /* -----------------------------------------------footer------------------- */
 
