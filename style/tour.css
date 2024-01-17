@@ -652,6 +652,223 @@ nav {
     margin: auto;
 }
 
+.ahsan-monjil{
+    position: relative;
+}
+.own-section .ahsan-monjil P{
+    display: none;
+    
+}
+
+.ahsan-monjil:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+    
+}
+
+.ahsan-monjil:hover img{
+    opacity: 0.3;
+}
+
+.bisnakandi{
+    position: relative;
+}
+
+.own-section .bisnakandi P{
+    display: none;
+    
+}
+
+.bisnakandi:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+    
+}
+
+.bisnakandi:hover img{
+    opacity: 0.3;
+}
+
+.mohasthangor{
+    position: relative;
+}
+.own-section .mohasthangor P{
+    display: none;
+    
+}
+
+.mohasthangor:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    
+    
+}
+
+.mohasthangor:hover img{
+    opacity: 0.3;
+}
+
+
+.shonarga{
+    position: relative;
+}
+.own-section .shonarga P{
+    display: none;
+    
+}
+
+.shonarga:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    
+}
+
+.shonarga:hover img{
+    opacity: 0.3;
+}
+
+
+.kaptai{
+    position: relative;
+}
+.own-section .kaptai P{
+    display: none;
+    
+}
+
+.kaptai:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    
+    
+}
+
+.kaptai:hover img{
+    opacity: 0.3;
+}
+
+.ratargul{
+    position: relative;
+}
+.own-section .ratargul P{
+    display: none;
+    
+}
+
+.ratargul:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    
+}
+
+.ratargul:hover img{
+    opacity: 0.3;
+}
+
+
+.sajek{
+    position: relative;
+}
+.own-section .sajek P{
+    display: none;
+    
+}
+
+.sajek:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    
+    
+}
+
+.sajek:hover img{
+    opacity: 0.3;
+}
+
+.sundarban{
+    position: relative;
+}
+.own-section .sundarban P{
+    display: none;
+    
+}
+
+.sundarban:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    
+}
+
+.sundarban:hover img{
+    opacity: 0.3;
+}
+
+.lalbag{
+    position: relative;
+}
+.own-section .lalbag P{
+    display: none;
+    
+}
+
+.lalbag:hover p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    
+    
+}
+
+.lalbag:hover img{
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
 /* -----------------------------------------------------------footer--------------------------------- */
 
 footer{
