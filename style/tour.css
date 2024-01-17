@@ -160,7 +160,7 @@ nav {
     font-weight: 700;
 }
 
-/* main section-1 ----------------------------------------*/
+/*----------------------------------------------------------- main section-1 ----------------------------------------*/
 
 .tour-container{
     display: grid;
@@ -208,23 +208,7 @@ nav {
 }
 
 
-/* Own section----------------------- */
-
-    .own-section h1{
-        color: #131318;
-        align-items: center;
-        font-size: 2.5rem;
-        font-weight: 800;
-    }
-
-    .own-section img{
-        width: 33.75rem;
-        height: 34.375rem;
-    }
-
-/* ------------------------------------------
-section-2
------------------------------------------- */
+/* ------------------------------------------------------------ section-2------------------------------------------ */
 .gallery-container{
     width: 73.125rem;
     margin: auto;
@@ -301,7 +285,7 @@ section-2
     margin-bottom: 0;
 }
 
-/* section-3------------------- */
+/* ---------------------------------------------------section-3 --------------------------------------------------- */
 
 .service{
     display: flex;
@@ -359,7 +343,7 @@ section-2
 }
 
 
-/* section-4 Discount---------------------- */
+/* -------------------------------------------------------section-4 Discount---------------------------------- */
 
 .discount1{
     background-image: url(../Images/Group\ 39.png);
@@ -495,7 +479,7 @@ section-2
 }
 
 
-/* section-5 enjoyment------------------------ */
+/* ----------------------------------------------------section-5 enjoyment------------------------------------- */
 
 .enjoyment-container{
     width: 73.125rem;
@@ -545,7 +529,7 @@ section-2
     height: 26.5rem;
 }
 
-/* section-6 registration------------ --------------------------*/
+/*---------------------------------------------------- section-6 registration------------ --------------------------*/
 
 .registration-container{
     display: flex;
@@ -572,6 +556,7 @@ section-2
 
 .registration p{
     width: 21.875rem;
+    margin: auto;
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
@@ -579,7 +564,8 @@ section-2
 }
 
 .registration hr{
-    width: 90%;
+    width: 50%;
+    margin-bottom: 2rem;
 }
 
 .registration input{
@@ -634,7 +620,36 @@ section-2
     margin: 0;
 }
 
-/* footer--------------------------------- */
+
+/*------------------------------------------------------- Own section --------------------------------------------------- */
+
+
+.own-section-container{
+    width: 73.125rem;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.own-section-container h1{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.own-section{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
+}
+
+.own-section img{
+    width: 25rem;
+    margin: auto;
+}
+
+/* -----------------------------------------------------------footer--------------------------------- */
 
 footer{
     width: 90rem;
@@ -679,9 +694,9 @@ footer hr{
 
 
 
-/* ----------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
 /* For Mobile Phone {Media query}*/
-/* ----------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 600px) {
 
@@ -734,7 +749,7 @@ footer hr{
     }
     
 
-    /* Main section-1 */
+    /* ------------------------------------------------Main section-1 ----------------------------------- */
 
     .tour-container{
         display: flex;
@@ -751,9 +766,23 @@ footer hr{
         width: 100%;
     }
 
-    /* own section------------- */
+    /* ------------------------------------------------own section. This is extra section-------------------------- */
+
+    .own-section-container{
+        width: 100%;
+    }
+    .own-section{
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .own-section-container h1{
+        width: 100%;
+    }
     
-    /* Main section-2--------------------- */
+    /* -------------------------------------------------Main section-2 ---------------------------------------------- */
 
     .gallery-container{
         width: 100%;
@@ -783,7 +812,7 @@ footer hr{
         flex-direction: column;
     }
 
-    /* section-3--------------------- */
+    /* ----------------------------------------------------- section-3 ---------------------------------- */
 
     .service{
         display: flex;
@@ -804,7 +833,7 @@ footer hr{
         width: 100%;
     }
 
-    /* section-4 discount------------------- */
+    /* ----------------------------------------- section-4 discount ------------------------------------- */
 
     .discount1{
         width: 100%;
@@ -860,7 +889,7 @@ footer hr{
         margin: 0;
     }
 
-    /* section-5 enjoyment------------- */
+    /* ------------------------------------------section-5 enjoyment------------------------------ */
 
     .enjoyment-container{
         width: 100%;
@@ -888,7 +917,7 @@ footer hr{
         width: 100%;
     }
 
-    /* section-6 registration--------------- */
+    /*------------------------------------------- section-6 registration---------------------------------------- */
 
     .registration-container{
         display: flex;
@@ -914,7 +943,7 @@ footer hr{
         
     }
 
-    /* footer------------------- */
+    /* -----------------------------------------------footer------------------- */
 
     footer{
         width: 100%;
